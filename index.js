@@ -65,6 +65,7 @@ module.exports = (url, outputPath, cb) => {
         } 
         catch (e) {
             console.log(e);
+            throw e;
         }
     });
 };
