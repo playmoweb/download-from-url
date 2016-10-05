@@ -1,8 +1,9 @@
 {
-  "name": "downloader",
+  "name": "download-from-url",
   "version": "1.0.0",
   "description": "Download files",
   "license": "MIT",
+  "repository": "playmoweb/download-from-url",
   "author": {
     "name": "Thibaud Giovannetti",
     "email": "thibaud@playmoweb.com",
@@ -18,7 +19,8 @@
     "download",
     "http",
     "request",
-    "url"
+    "url",
+	"file"
   ],
   "dependencies": {
     "request": "^2.75.0",
