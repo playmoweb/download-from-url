@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Download files",
   "license": "MIT",
+  "main": "index.js",
   "repository": "playmoweb/download-from-url",
   "author": {
     "name": "Thibaud Giovannetti",
