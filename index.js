@@ -31,8 +31,6 @@ module.exports = (url, outputPath, cb) => {
         cb = outputPath;
         outputPath = "./";
     }
-    else if(outputPath[outputPath.length-1] !== "/")
-        outputPath = outputPath + "/";
 
     req.on('error', function (e) {
         return cb(e);
@@ -54,7 +52,7 @@ module.exports = (url, outputPath, cb) => {
                 });
 
                 ws.on('finish', function () {
-                    return cb(null, {fullpath : fullPath, filename: headers.filename, contentType: headers.contentType}, res.headers);
+                    return cb(null, {path : fullPath, filename: headers.filename, contentType: headers.contentType}, res.headers);
                 });
 
                 req.pipe(through2(function (chunk, enc, callback) {
