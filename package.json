@@ -8,7 +8,7 @@
   "author": {
     "name": "Thibaud Giovannetti",
     "email": "thibaud@playmoweb.com",
-    "url": "github.com/tspoke"
+    "url": "https://github.com/tspoke"
   },
   "engines": {
     "node": ">=4"
@@ -21,7 +21,7 @@
     "http",
     "request",
     "url",
-	"file"
+	  "file"
   ],
   "dependencies": {
     "request": "2.75.0",
